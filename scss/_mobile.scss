@@ -7,8 +7,8 @@
 
 // Desktops & Laptops
 @include mediaLg {
-  .projects {
-    grid-template-columns: repeat(3, 1fr);
+  .main-img{
+    display: block;
   }
 }
 
@@ -64,9 +64,7 @@
    
   }
 
-  .projects {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  
 }
 
 // Smartphones
